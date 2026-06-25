@@ -1,0 +1,237 @@
+/* =====================
+   Purple Theme Variables
+   ===================== */
+:root {
+  --purple-lightest: #F3F0FF;
+  --purple-soft:     #E0D9FF;
+  --purple-mid:      #C5B8F0;
+  --purple-base:     #9B8FE0;
+  --purple-deep:     #7B6FD0;
+  --purple-dark:     #5A4BAD;
+  --purple-darkest:  #3C2D8A;
+}
+
+/* =====================
+   Global Reset & Base
+   ===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--purple-deep);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+  color: var(--purple-darkest);
+  line-height: 1.6;
+}
+
+/* =====================
+   Typography
+   ===================== */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--purple-darkest);
+  font-weight: 600;
+}
+
+p {
+  color: var(--purple-dark);
+}
+
+a {
+  color: var(--purple-deep);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--purple-darkest);
+  text-decoration: underline;
+}
+
+/* =====================
+   Backgrounds
+   ===================== */
+.bg-purple-light   { background: var(--purple-lightest); }
+.bg-purple-soft    { background: var(--purple-soft); }
+.bg-purple-mid     { background: var(--purple-mid); }
+.bg-purple-dark    { background: var(--purple-darkest); }
+
+/* =====================
+   Text Colors
+   ===================== */
+.text-purple-light  { color: var(--purple-soft); }
+.text-purple-mid    { color: var(--purple-deep); }
+.text-purple-dark   { color: var(--purple-darkest); }
+
+/* =====================
+   Buttons
+   ===================== */
+.btn-purple-primary {
+  background: var(--purple-deep);
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-purple-primary:hover {
+  background: var(--purple-dark);
+}
+
+.btn-purple-outline {
+  background: var(--purple-lightest);
+  color: var(--purple-dark);
+  border: 1.5px solid var(--purple-mid);
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-purple-outline:hover {
+  background: var(--purple-soft);
+  border-color: var(--purple-base);
+}
+
+.btn-purple-dark {
+  background: var(--purple-darkest);
+  color: var(--purple-soft);
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-purple-dark:hover {
+  background: var(--purple-dark);
+}
+
+/* =====================
+   Cards
+   ===================== */
+.card-purple-light {
+  background: #fff;
+  border: 0.5px solid var(--purple-mid);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.card-purple-soft {
+  background: var(--purple-soft);
+  border: 0.5px solid var(--purple-mid);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.card-purple-dark {
+  background: var(--purple-darkest);
+  border: 0.5px solid var(--purple-dark);
+  border-radius: 12px;
+  padding: 1.25rem;
+  color: var(--purple-soft);
+}
+
+/* =====================
+   Badges
+   ===================== */
+.badge-purple-light {
+  display: inline-block;
+  background: var(--purple-soft);
+  color: var(--purple-dark);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.badge-purple-dark {
+  display: inline-block;
+  background: var(--purple-darkest);
+  color: var(--purple-soft);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* =====================
+   Inputs
+   ===================== */
+.input-purple {
+  border: 1.5px solid var(--purple-base);
+  background: #fff;
+  color: var(--purple-darkest);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-purple:focus {
+  border-color: var(--purple-deep);
+  box-shadow: 0 0 0 3px var(--purple-soft);
+}
+
+.input-purple::placeholder {
+  color: var(--purple-base);
+}
+
+/* =====================
+   Navbar
+   ===================== */
+.navbar-purple {
+  background: var(--purple-darkest);
+  color: var(--purple-soft);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-purple a {
+  color: var(--purple-mid);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.navbar-purple a:hover {
+  color: #fff;
+}
+
+/* =====================
+   Divider
+   ===================== */
+.divider-purple {
+  height: 1px;
+  background: var(--purple-mid);
+  border: none;
+  margin: 1.5rem 0;
+}
+
+/* =====================
+   App Layout
+   ===================== */
+.App {
+  min-height: 100vh;
+  background-color: var(--purple-lightest);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
