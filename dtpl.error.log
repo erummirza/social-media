@@ -1,0 +1,107 @@
+RangeError: 执行命令 CreateDirectoriesCommand 出错: Maximum call stack size exceeded
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:134:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
+    at Object.next (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:114:57)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:103:16)
+    at c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:28:61
+    at Object.<anonymous> (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\out\common\helper.js:34:62)
+    at step (c:\Users\ACER\.vscode\extensions\qiu8310.dot-template-vscode-0.4.0\node_modules\dot-template-core\node_modules\tslib\tslib.js:133:27)
