@@ -25,39 +25,40 @@ A full-stack social media application with user authentication, real-time messag
 
 This is a full-featured social media platform that allows users to:
 - Create accounts and log in securely
-- Share posts with images and text
+- Share posts with images and text (coming soon)
 - Like and comment on posts
 - Follow other users
-- Send and receive real-time messages
-- Receive notifications
+- Send and receive real-time messages 
+- Receive notifications (coming soon)
 
 ---
 
 ## ✨ Features
 
 ### User Features
-- ✅ User registration and login with JWT authentication
-- ✅ Password reset via email
-- ✅ Profile management (avatar, bio, etc.)
+- ✅ User registration and login
+- ✅ JWT authentication (coming soon)
+- ✅ Password reset via email  (coming soon)
+- ✅ Profile management (avatar, bio, etc.)  (coming soon)
 - ✅ Follow/Unfollow users
 
 ### Social Features
-- ✅ Create, edit, delete posts
-- ✅ Upload images to posts
-- ✅ Like and unlike posts
+- ✅ Create, edit, delete posts  (coming soon)
+- ✅ Upload images to posts  (coming soon)
+- ✅ Like and unlike posts 
 - ✅ Add comments to posts
-- ✅ Real-time notifications
+- ✅ Real-time notifications  (coming soon)
 
 ### Messaging
-- ✅ Real-time chat using WebSockets
-- ✅ Private messaging between users
-- ✅ Online/offline status
+- ✅ Real-time chat using WebSockets  (coming soon)
+- ✅ Private messaging between users  (coming soon)
+- ✅ Online/offline status  (coming soon)
 
 ### Security
-- ✅ JWT authentication
+- ✅ JWT authentication  (coming soon)
 - ✅ Password hashing with bcrypt
-- ✅ XSS and CSRF protection
-- ✅ Rate limiting
+- ✅ XSS and CSRF protection  (coming soon)
+- ✅ Rate limiting  (coming soon)
 
 ---
 
