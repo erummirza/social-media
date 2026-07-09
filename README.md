@@ -37,7 +37,7 @@ This is a full-featured social media platform that allows users to:
 
 ### User Features
 - ✅ User registration and login
-- ✅ JWT authentication (coming soon)
+- ✅ JWT authentication 
 - ✅ Password reset via email  (coming soon)
 - ✅ Profile management (avatar, bio, etc.)  (coming soon)
 - ✅ Follow/Unfollow users
@@ -55,7 +55,7 @@ This is a full-featured social media platform that allows users to:
 - ✅ Online/offline status  (coming soon)
 
 ### Security
-- ✅ JWT authentication  (coming soon)
+- ✅ JWT authentication 
 - ✅ Password hashing with bcrypt
 - ✅ XSS and CSRF protection  (coming soon)
 - ✅ Rate limiting  (coming soon)
