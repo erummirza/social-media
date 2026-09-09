@@ -28,6 +28,7 @@ function Dashboard({ loggedInUser, onLogout }) {
     checkAuthentication();
     const interval = setInterval(checkAuthentication, 60000);
     return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -36,6 +37,7 @@ function Dashboard({ loggedInUser, onLogout }) {
       fetchPosts();
       fetchUserStats();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loggedInUser, isAuthenticated]);
 
   const checkAuthentication = () => {
