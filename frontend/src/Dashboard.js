@@ -19,6 +19,9 @@ function Dashboard({ loggedInUser, onLogout }) {
     totalLikes: 0
   });
   const [statsLoading, setStatsLoading] = useState(false);
+  const [followPage, setFollowPage] = useState(1);
+  const USERS_PER_PAGE = 5;
+  const [expandedLikes, setExpandedLikes] = useState({});
 
   const getCurrentUser = () => {
     return loggedInUser || localStorage.getItem('loggedInUser');
@@ -37,6 +40,11 @@ function Dashboard({ loggedInUser, onLogout }) {
       fetchUserStats();
     }
   }, [loggedInUser, isAuthenticated]);
+
+  useEffect(() => {
+    const totalPages = Math.max(1, Math.ceil(users.length / USERS_PER_PAGE));
+    if (followPage > totalPages) setFollowPage(totalPages);
+  }, [users]);
 
   const checkAuthentication = () => {
     const token = localStorage.getItem('token');
@@ -449,13 +457,14 @@ function Dashboard({ loggedInUser, onLogout }) {
           )}
 
           {!loading && !error && users.length > 0 && (
+            <>
             <div style={{ border: '0.5px solid #C5B8F0', borderRadius: '12px', overflow: 'hidden' }}>
               <div style={{ display: 'grid', gridTemplateColumns: '0.4fr 1fr 1.2fr 0.8fr', background: '#3C2D8A', padding: '12px 16px', fontWeight: '500', fontSize: '13px', color: '#E0D9FF' }}>
                 <span>#</span><span>User ID</span><span>Registered At</span><span>Follow</span>
               </div>
-              {users.map((user, index) => (
+              {users.slice((followPage - 1) * USERS_PER_PAGE, followPage * USERS_PER_PAGE).map((user, index) => (
                 <div key={user._id} style={{ display: 'grid', gridTemplateColumns: '0.4fr 1fr 1.2fr 0.8fr', padding: '12px 16px', fontSize: '14px', color: '#3C2D8A', background: index % 2 === 0 ? '#fff' : '#F3F0FF', borderTop: '0.5px solid #E0D9FF', alignItems: 'center' }}>
-                  <span style={{ color: '#9B8FE0' }}>{index + 1}</span>
+                  <span style={{ color: '#9B8FE0' }}>{(followPage - 1) * USERS_PER_PAGE + index + 1}</span>
                   <span style={{ fontWeight: '500' }}>👤 {user.userId}</span>
                   <span style={{ color: '#7B6FD0', fontSize: '12px' }}>{new Date(user.createdAt).toLocaleString()}</span>
                   <button
@@ -476,6 +485,47 @@ function Dashboard({ loggedInUser, onLogout }) {
                 </div>
               ))}
             </div>
+
+            {users.length > USERS_PER_PAGE && (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', marginTop: '14px' }}>
+                <button
+                  onClick={() => setFollowPage(p => Math.max(1, p - 1))}
+                  disabled={followPage === 1}
+                  style={{
+                    padding: '6px 14px',
+                    borderRadius: '8px',
+                    fontSize: '13px',
+                    fontWeight: '500',
+                    cursor: followPage === 1 ? 'not-allowed' : 'pointer',
+                    background: '#fff',
+                    color: followPage === 1 ? '#C5B8F0' : '#7B6FD0',
+                    border: '1.5px solid #C5B8F0',
+                  }}
+                >
+                  ← Prev
+                </button>
+                <span style={{ fontSize: '13px', color: '#5A4BAD', fontWeight: '500' }}>
+                  Page {followPage} of {Math.max(1, Math.ceil(users.length / USERS_PER_PAGE))}
+                </span>
+                <button
+                  onClick={() => setFollowPage(p => Math.min(Math.ceil(users.length / USERS_PER_PAGE), p + 1))}
+                  disabled={followPage >= Math.ceil(users.length / USERS_PER_PAGE)}
+                  style={{
+                    padding: '6px 14px',
+                    borderRadius: '8px',
+                    fontSize: '13px',
+                    fontWeight: '500',
+                    cursor: followPage >= Math.ceil(users.length / USERS_PER_PAGE) ? 'not-allowed' : 'pointer',
+                    background: '#fff',
+                    color: followPage >= Math.ceil(users.length / USERS_PER_PAGE) ? '#C5B8F0' : '#7B6FD0',
+                    border: '1.5px solid #C5B8F0',
+                  }}
+                >
+                  Next →
+                </button>
+              </div>
+            )}
+            </>
           )}
         </div>
 
@@ -634,10 +684,29 @@ function Dashboard({ loggedInUser, onLogout }) {
                   <span>{likeLoading[post._id] ? '⏳' : (post.likes?.includes(currentUser) ? '❤️' : '🤍')}</span>
                   <span>{likeLoading[post._id] ? '...' : (post.likes?.includes(currentUser) ? 'Liked' : 'Like')}</span>
                 </button>
-                <span style={{ fontSize: '13px', color: '#9B8FE0' }}>
+                <span
+                  onClick={() => (post.likes?.length || 0) > 0 && setExpandedLikes(prev => ({ ...prev, [post._id]: !prev[post._id] }))}
+                  style={{
+                    fontSize: '13px',
+                    color: '#9B8FE0',
+                    cursor: (post.likes?.length || 0) > 0 ? 'pointer' : 'default',
+                    textDecoration: (post.likes?.length || 0) > 0 ? 'underline' : 'none',
+                  }}
+                >
                   {post.likes?.length || 0} {post.likes?.length === 1 ? 'like' : 'likes'}
                 </span>
               </div>
+
+              {expandedLikes[post._id] && (post.likes?.length || 0) > 0 && (
+                <div style={{ marginTop: '8px', paddingTop: '8px', borderTop: '0.5px dashed #E0D9FF', fontSize: '12px', color: '#5A4BAD' }}>
+                  <span style={{ fontWeight: '600' }}>Liked by: </span>
+                  {post.likes.map((likerId, i) => (
+                    <span key={likerId}>
+                      {likerId}{i < post.likes.length - 1 ? ', ' : ''}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>
