@@ -30,7 +30,7 @@ https://social-media2.pages.dev/admin/dashboard
 
 ## 🎥 Demo Video
 
-▶️ **[Watch the Social Media App Demo](YOUR_VIDEO_LINK)**[video.webm](https://github.com/user-attachments/assets/6b07c26b-9bf6-4de4-9c76-89d5235d6577)
+▶️ **[Watch the Social Media App Demo](https://github.com/user-attachments/assets/6b07c26b-9bf6-4de4-9c76-89d5235d6577)**
 
 
 The demo will demonstrate:
