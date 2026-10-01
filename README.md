@@ -51,31 +51,31 @@ The demo will demonstrate:
 
 ### 🔐 Sign In
 
-![Sign In](screenshots/03-signin-page.png)
+![Sign In](frontend/screenshots/03-signin-page.png)
 
 ### 🏠 Dashboard
 
-![Dashboard](screenshots/04-dashboard.png)
+![Dashboard](frontend/screenshots/04-dashboard.png)
 
 ### 📝 Creating a Post
 
-![Post Created](screenshots/05-post-created.png)
+![Post Created](frontend/screenshots/05-post-created.png)
 
 ### ❤️ Liking a Post
 
-![Post Liked](screenshots/06-post-liked.png)
+![Post Liked](frontend/screenshots/06-post-liked.png)
 
 ### 👥 Following a User
 
-![User Followed](screenshots/07-user-followed.png)
+![User Followed](frontend/screenshots/07-user-followed.png)
 
 ### 👨‍💼 Admin Login
 
-![Admin Login](screenshots/08-admin-login.png)
+![Admin Login](frontend/screenshots/08-admin-login.png)
 
 ### 🛡️ Admin Dashboard
 
-![Admin Dashboard](screenshots/09-admin-dashboard.png)
+![Admin Dashboard](frontend/screenshots/09-admin-dashboard.png)
 
 ---
 
