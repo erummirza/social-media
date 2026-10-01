@@ -49,25 +49,33 @@ The demo will demonstrate:
 
 ## 📸 Screenshots
 
-### 🔐 Login
+### 🔐 Sign In
 
-![Login](screenshots/login.png)
+![Sign In](screenshots/03-signin-page.png)
 
 ### 🏠 Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/04-dashboard.png)
 
-### 📝 Posts & Feed
+### 📝 Creating a Post
 
-![Posts](screenshots/feed.png)
+![Post Created](screenshots/05-post-created.png)
 
-### 👤 User Profile
+### ❤️ Liking a Post
 
-![Profile](screenshots/profile.png)
+![Post Liked](screenshots/06-post-liked.png)
 
-### 👨‍💼 Admin Dashboard
+### 👥 Following a User
 
-![Admin Dashboard](screenshots/admin-panel.png)
+![User Followed](screenshots/07-user-followed.png)
+
+### 👨‍💼 Admin Login
+
+![Admin Login](screenshots/08-admin-login.png)
+
+### 🛡️ Admin Dashboard
+
+![Admin Dashboard](screenshots/09-admin-dashboard.png)
 
 ---
 
@@ -226,3 +234,4 @@ API functionality includes:
                            │
                            ▼
                      Admin APIs
+```
